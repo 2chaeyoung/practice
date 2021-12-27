@@ -3,12 +3,17 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap");
+
 * {
-  font-family: "Roboto", sans-serif;
+    font-family: "Roboto", sans-serif;
+}
+html,
+body {
+    font-size: 10px;
 }
 .translate-reverse-y-hlaf {
-  transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 li {
-  list-style: none;
+    list-style: none;
 }
